@@ -4,7 +4,7 @@ Exercises in java
 
 Code of java
 
-## 📋🎇 Documentation
+## 📋 Documentation
 
 [Documentation]()
 
