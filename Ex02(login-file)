@@ -1,0 +1,53 @@
+# Create a Login form using html
+
+// HTML File
+<form method="post" action="exercise03.jsp">
+	<fieldset>
+		<h2 align = "center" style ="color:green">Interest Calculator</h2>
+		<br><br><br>
+		
+		<label>LoanAmount</label>
+		<input type="text" name ="LoanAmount"></input>
+		<br><br>
+		<label>Interest Rate(%)</label>
+		<input type ="text" name ="rate">
+		<br><br>
+		
+		<button type="submit">Submit</button>
+		
+	</fieldset>
+</form>
+
+/*----------------------------------------------------------------------------------------------------*/
+
+//JSP file
+
+<%! public int cal_int(){ %>
+
+	<% 
+	String amount =request.getParameter("loanAmount");
+	int loanAmount = Integer.parseInt(amount.trim());
+	
+	String rate =request.getParameter("rate");
+	int Inerest_rate = Integer.parseInt(rate.trim());
+	
+	int InterestAmount = (loanAmount * Inerest_rate)/100;
+	%>
+	
+	<%! return 0 ; } %>
+	
+	<ul>
+		<li><h4><b>Loan Amount:</b>
+		<%= request.getParameter("LoanAmount")%>
+		</h4></li>
+		
+		<li><h4><b>Interest Rate:</b>
+		<%= request.getParameter("rate") %>
+		</h4></li>
+		
+		<li><h4><b>Interest Amount:</b>
+
+<%= InterestAmount %>
+		</h4></li>
+		
+	</ul>
