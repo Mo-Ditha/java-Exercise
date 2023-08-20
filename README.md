@@ -6,7 +6,7 @@ Code of java
 
 ## 📋 Documentation
 
-[Documentation]()
+[Documentation](https://github.com/Mo-Ditha/java-Exercise/tree/main)
 
 ## ✍ Author
 
