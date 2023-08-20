@@ -1,0 +1,52 @@
+## Student Details form
+
+
+/*------------------------------------------------------------------------------------------*/
+//HTML file
+
+<form method="post" action="">
+  <fieldset>
+			<h2 align = "center" style ="color:blue">Student Details</h2>
+			
+			<label>Name:</label>
+			<input type="text" name="txtname"></input>
+			<br><br>
+			
+			<label>City:</label>
+			
+			<select name="cities">
+			
+			 <option value="Anuradhapura">Anuradhapura</option>
+			 <option value="Colombo">Colombo</option>
+			 <option value="Kandy">Kandy</option>
+			 <option value="Kurunagala">Kurunagala</option>
+			 <option value="Galle">Galle</option>
+			 
+			 </select>
+			 
+			<br><br>
+			
+			<label>Gender :</label>
+			
+			<label>Male</label>
+			<input type="radio" name="gender" value="male"></input>
+			<label>Female</label>
+			<input type="radio" name="gender" value="female"></input>
+			<br><br>
+			
+			<label>Hobbies :</label>
+			
+			<label>Eating</label>
+			<input type="checkbox" name="hobbies" value="reading"></input>
+			<label>Sleeping</label>
+			<input type="checkbox" name="hobbies" value="traveling"></input>
+			<label>Traveling</label>
+			<input type="checkbox" name="hobbies" value="singing"></input>
+			<br><br>
+			
+			<button type= "submit" >Process</button>
+			
+
+		</fieldset>
+	</form>
+
